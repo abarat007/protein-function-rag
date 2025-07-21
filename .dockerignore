@@ -1,0 +1,30 @@
+# Ignore unnecessary files and folders
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# MacOS system files
+.DS_Store
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment folders
+venv/
+env/
+proteinrag-venv/
+
+# Ignore big outputs, BUT NOT retriever/index files!
+outputs/*.tmp
+outputs/*.bak
+outputs/*.log
+
+# ⚠️ DO NOT ignore retriever/ folder or data/ folder!
+# retriever/faiss_index.index
+# retriever/doc_ids.npy
+# data/uniprot_chunks.jsonl
+
+# Git
+.git/
