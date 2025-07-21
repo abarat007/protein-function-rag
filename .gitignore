@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.idea/
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Docker
+*.log
+*.pid
+
+# Model/data outputs
+outputs/
+retriever/faiss_index.index
+retriever/doc_ids.npy
+data/uniprot_chunks.jsonl
