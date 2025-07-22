@@ -97,6 +97,3 @@ Then open: http://localhost:8501 in your browser.
 
 MIT License
 
----
-
-Made with ❤️ for protein function prediction!
